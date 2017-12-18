@@ -1,0 +1,17 @@
+.errors {
+  display: none;
+}
+
+.errors--open {
+  display: block;
+  position: fixed;
+  top: 20px;
+  width: 100%;
+
+  .errors__inner {
+    max-width: 400px;
+    margin: 0 auto;
+    background: #CCC;
+    padding: 30px;
+  }
+}

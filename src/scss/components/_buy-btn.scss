@@ -1,0 +1,13 @@
+.buy-btn__loading {
+  display: none;
+}
+
+.buy-btn--loading {
+  .buy-btn__loading {
+    display: block;
+  }
+
+  .buy-btn__text {
+    display: none;
+  }
+}

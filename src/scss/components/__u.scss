@@ -1,0 +1,358 @@
+@media (max-width: $breakpoint-desktop-max) {
+  .u__hide--m {
+    display: none;
+  }
+}
+
+@media (min-width: $breakpoint-desktop-min) {
+  .u__show--m {
+    display: none;
+  }
+}
+
+.u__ratio {
+  position: relative;
+  height: 0;
+  display: block;
+  width: 100%;
+  padding-bottom: 100%;
+
+  .lazyload,
+  .lazyloaded,
+  .lazyloading {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: #f5f5f5;
+  }
+}
+
+.u__flex {
+  display: flex;
+}
+
+.u__flex-col {
+  flex: 0 0 auto;
+}
+
+.u__flex-input {
+  flex: 1 0 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.u__grid {
+  max-width: 1000px;
+  margin: 0 auto;
+
+  > * {
+    flex: 1;
+    margin: 0 20px;
+  }
+}
+
+.u__vis-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+
+  /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+.u__lmt {
+  margin-top: 80px;
+}
+
+.u__mt {
+  margin-top: 40px;
+}
+
+.u__mb {
+  margin-bottom: 30px;
+}
+
+@media (min-width: $breakpoint-medium) {
+  .u__nmb\@m {
+    margin-bottom: 0;
+  }
+}
+
+.u__responsive {
+  width: 100%;
+}
+
+.u__rounded {
+  border-radius: 10%;
+  margin-bottom: 10px;
+}
+
+.u__unstyled-li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body:hover .u__vis-hidden a,
+body:hover .u__vis-hidden input,
+body:hover .u__vis-hidden button {
+  display: none !important;
+}
+
+.u__container {
+  @include container;
+}
+
+.u__block {
+  display: block;
+}
+
+.u__sperator {
+  border-top: 1px solid #CCC;
+}
+
+.u__container:before,
+.u__container:after {
+  content: "";
+  display: table;
+}
+
+.u__container:after {
+  clear: both;
+}
+
+.u__container-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.u__clearfix:before {
+  content: "";
+  display: table-cell;
+}
+
+.u__clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.u__center {
+  text-align: center;
+}
+
+.u__left {
+  text-align: left;
+}
+
+.u__float-left {
+  float: left;
+}
+
+.u__float-right {
+  float: right;
+}
+
+[class*='u__float-'] {
+  max-width: 100%;
+}
+
+.u__responsive-width,
+.u__responsive-height {
+  box-sizing: border-box;
+}
+
+.u__responsive-width {
+  max-width: 100% !important;
+  height: auto;
+}
+
+.u__responsive-height {
+  max-height: 100%;
+  width: auto;
+}
+
+.u__muted {
+  color: #888;
+}
+
+.u__text-medium {
+  font-size: 1.2rem;
+}
+
+.u__margin {
+  margin-bottom: $utility-margin;
+}
+
+* + .u__margin {
+  margin-top: $utility-margin;
+}
+
+.u__margin-top {
+  margin-top: $utility-margin !important;
+}
+
+.u__margin-bottom {
+  margin-bottom: $utility-margin !important;
+}
+
+.u__margin-left {
+  margin-left: $utility-margin !important;
+}
+
+.u__margin-right {
+  margin-right: $utility-margin !important;
+}
+
+.u__margin-large {
+  margin-bottom: $utility-margin-large;
+}
+
+* + .u__margin-large {
+  margin-top: $utility-margin-large;
+}
+
+.u__margin-large-top {
+  margin-top: $utility-margin-large !important;
+}
+
+.u__margin-large-bottom {
+  margin-bottom: $utility-margin-large !important;
+}
+
+.u__margin-large-left {
+  margin-left: $utility-margin-large !important;
+}
+
+.u__margin-large-right {
+  margin-right: $utility-margin-large !important;
+}
+
+.u__margin-small {
+  margin-bottom: $utility-margin-small;
+}
+
+* + .u__margin-small {
+  margin-top: $utility-margin-small;
+}
+
+.u__margin-small-top {
+  margin-top: $utility-margin-small !important;
+}
+
+.u__margin-small-bottom {
+  margin-bottom: $utility-margin-small !important;
+}
+
+.u__margin-small-left {
+  margin-left: $utility-margin-small !important;
+}
+
+.u__margin-small-right {
+  margin-right: $utility-margin-small !important;
+}
+
+.u__margin-remove {
+  margin: 0 !important;
+}
+
+.u__margin-top-remove {
+  margin-top: 0 !important;
+}
+
+.u__margin-bottom-remove {
+  margin-bottom: 0 !important;
+}
+
+.u__padding-remove {
+  padding: 0 !important;
+}
+
+.u__padding-top-remove {
+  padding-top: 0 !important;
+}
+
+.u__padding-bottom-remove {
+  padding-bottom: 0 !important;
+}
+
+.u__padding-vertical-remove {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+/* Desktop and bigger */
+@media (min-width: $breakpoint-large) {
+  .u__visible-small {
+    display: none !important;
+  }
+
+  .u__visible-medium {
+    display: none !important;
+  }
+
+  .u__hidden-large {
+    display: none !important;
+  }
+}
+
+/* Tablets portrait */
+@media (min-width: $breakpoint-medium) and (max-width: $breakpoint-medium-max) {
+  .u__visible-small {
+    display: none !important;
+  }
+
+  .u__visible-large {
+    display: none !important;
+  }
+
+  .u__hidden-medium {
+    display: none !important;
+  }
+}
+
+/* Phone landscape and smaller*/
+@media (max-width: $breakpoint-small-max) {
+  .u__visible-medium {
+    display: none !important;
+  }
+
+  .u__visible-large {
+    display: none !important;
+  }
+
+  .u__hidden-small {
+    display: none !important;
+  }
+}
+
+/* Remove from the flow and screen readers on any device */
+.u__hidden {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+/* It's hidden, but still affects layout */
+.u__invisible {
+  visibility: hidden !important;
+}
+
+.u__visible {
+  display: block !important;
+  visibility: visible !important;
+}
+
+
+@media (max-width: $breakpoint-small-max) {
+  .u__mobile-no-padd {
+    padding: 0;
+  }
+}

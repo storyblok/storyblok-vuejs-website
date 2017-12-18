@@ -1,0 +1,27 @@
+.cart {
+  @include container;
+}
+
+.cart__quantity {
+  width: 60px;
+}
+
+.cart__remove {
+  width: 15px;
+  height: 15px;
+}
+
+.cart__totals {
+  text-align: right;
+  font-size: 1.1rem;
+  padding: 20px 0;
+}
+
+.cart__total {
+  padding: 4px 0;
+}
+
+.cart__actions {
+  padding: 10px 0;
+  text-align: right;
+}

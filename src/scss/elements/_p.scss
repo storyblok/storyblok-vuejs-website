@@ -1,0 +1,14 @@
+p {
+  margin: 0;
+  line-height: 1.6;
+
+  & + p,
+  & + h6,
+  & + h5,
+  & + h4,
+  & + h3,
+  & + h2,
+  & + h1 {
+    margin-top: 16px;
+  }
+}

@@ -1,0 +1,33 @@
+.footer {
+  ul {
+    @extend .u__unstyled-li;
+  }
+}
+
+.footer__icons {
+  li {
+    display: inline-block;
+    margin: 10px;
+  }
+}
+
+.footer__social-icon {
+
+  svg {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.footer__wrap {
+  @include container;
+}
+
+.footer__contact {
+  padding-bottom: 40px;
+}
+
+.footer__nav {
+  background: #e3f2ed;
+  padding: 40px 0 120px 0;
+}

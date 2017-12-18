@@ -1,0 +1,36 @@
+.sidebar {
+  padding: 60px 30px 30px 30px;
+  font-size: 1.1rem;
+  font-weight: 700;
+
+  a {
+    color: #000;
+    border-bottom: 2px solid transparent;
+    transition: border .15s ease, color .15s ease;
+
+    &:hover {
+      color: #000;
+      border-bottom: 2px solid #000;
+    }
+  }
+
+  & li {
+    padding-bottom: 5px;
+  }
+
+  & li > a {
+    display: block;
+    padding: 5px 0;
+    margin: 3px 0;
+  }
+}
+
+.sidebar__subitems {
+  margin: 0 0 0 15px;
+
+  a {
+    display: block;
+    padding: 5px 0;
+    margin: 3px 0;
+  }
+}

@@ -1,0 +1,12 @@
+.catalogue {
+  @include container;
+}
+
+.catalogue__filter-item {
+  display: inline-block;
+}
+
+.catalogue__filter {
+  padding: 0 0 20px 0;
+  margin: 0 0 20px 0;
+}

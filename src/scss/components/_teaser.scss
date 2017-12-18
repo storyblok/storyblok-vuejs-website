@@ -1,0 +1,54 @@
+.teaser {
+  @include container;
+
+  padding-top: 30px;
+}
+
+.teaser__inner {
+  align-items: center;
+}
+
+.teaser__col {
+
+}
+
+.teaser__text {
+  h1 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 2rem;
+
+    @media (min-width: $breakpoint-medium) {
+      margin-bottom: 20px;
+    }
+
+    a {
+      color: #000;
+      text-decoration: none;
+    }
+  }
+}
+
+.teaser__img {
+  margin-bottom: 30px;
+
+  @media (min-width: $breakpoint-small) {
+    margin-bottom: 0;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.teaser__link {
+  @include link;
+
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.teaser__slide {
+  margin: 2px 0;
+}

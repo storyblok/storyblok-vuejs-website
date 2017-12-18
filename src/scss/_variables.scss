@@ -1,0 +1,57 @@
+$brand-color: #357F8A;
+
+$global-gutter: 20px;
+$global-medium-gutter: 20px;
+$global-small-gutter: 20px;
+$global-gutter: 20px;
+$global-medium-gutter: 30px;
+$global-large-gutter: 40px;
+$global-border-width: 20px;
+$global-border: 20px;
+$inverse-global-border: 1px;
+
+$utility-container-max-width: 980px !default;
+$utility-container-padding-horizontal: 25px !default;
+
+$utility-container-large-max-width: 1200px !default;
+$utility-container-large-padding-horizontal: 35px !default;
+
+$utility-align-horizontal: 15px !default;
+$utility-align-vertical: 15px !default;
+
+$utility-height-viewport-min-height: 600px !default;
+
+$utility-margin: 15px !default;
+$utility-margin-small: 5px !default;
+$utility-margin-large: 50px !default;
+$utility-margin-xlarge: 100px !default;
+
+$utility-border-rounded: 5px !default;
+
+$utility-heading-large-small-font-size: 36px !default;
+$utility-heading-large-small-line-height: 42px !default;
+$utility-heading-large-font-size: 52px !default;
+$utility-heading-large-line-height: 64px !default;
+
+$utility-link-muted-color: #444 !default;
+$utility-link-muted-hover-color: #444 !default;
+
+$utility-scrollable-text-height: 300px !default;
+
+$utility-scrollable-box-height: 170px !default;
+$utility-scrollable-box-padding: 10px !default;
+$utility-scrollable-box-border: #ddd !default;
+$utility-scrollable-box-border-width: 1px !default;
+
+
+$breakpoint-desktop-min: 840px;
+$breakpoint-desktop-max: 840px - 1px;
+
+$breakpoint-small: 480px;
+$breakpoint-medium: 768px;
+$breakpoint-large: 960px;
+$breakpoint-xlarge: 1220px;
+$breakpoint-mini-max: ($breakpoint-small - 1);
+$breakpoint-small-max: ($breakpoint-medium - 1);
+$breakpoint-medium-max: ($breakpoint-large - 1);
+$breakpoint-large-max: ($breakpoint-xlarge - 1);

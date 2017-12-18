@@ -1,0 +1,29 @@
+.product-list {
+  @include container;
+}
+
+.product-list__img {
+  width: 100%;
+  height: auto;
+}
+
+.product-list__price {
+  text-align: right;
+}
+
+.product-list__details {
+  padding: 20px 20px 40px 20px;
+}
+
+.product-list__muted-text {
+  color: #bbbbbb;
+  padding: 10px 0 20px 0;
+}
+
+.product-list-priceline {
+  font-size: 1.3rem;
+}
+
+.product-list__header {
+  margin: 20px 0 30px;
+}

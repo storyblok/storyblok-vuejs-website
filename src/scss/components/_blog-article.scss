@@ -1,0 +1,22 @@
+.blog-article {
+  max-width: 800px;
+  margin: 0 auto;
+
+  h1 {
+    text-align: center;
+    margin-top: 60px;
+  }
+
+  p {
+    line-height: 1.8;
+  }
+}
+
+.blog-article__img {
+  margin: 30px 0;
+}
+
+.blog-article__back {
+  text-align: center;
+  padding-top: 30px;
+}

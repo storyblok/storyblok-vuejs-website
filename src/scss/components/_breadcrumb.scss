@@ -1,0 +1,21 @@
+.breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+
+  & > * > * {
+    display: inline-block;
+    color: #999;
+  }
+
+  & >:nth-child(n+2):not(.uk-first-column):before {
+    content: "/";
+    display: inline-block;
+    margin: 0 15px;
+    color: #999;
+  }
+}
