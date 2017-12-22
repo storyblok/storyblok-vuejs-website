@@ -18,6 +18,10 @@ export default {
     }
   },
   created () {
+    if (window.location.hash.indexOf('#!') > -1) {
+      this.$router.push(window.location.hash.split('#!')[1])
+    }
+
     this.$storyblok.on('change', () => { this.loadStory('draft') })
     this.$storyblok.on('published', () => { this.loadStory('draft') })
 

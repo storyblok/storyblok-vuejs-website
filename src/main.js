@@ -31,9 +31,9 @@ Vue.filter('url', (value) => {
     return ''
   }
   if (value.linktype === 'story') {
-    return '#/' + value.cached_url
+    return '/' + value.cached_url
   } else {
-    return '#/' + value.url
+    return '/' + value.url
   }
 })
 
