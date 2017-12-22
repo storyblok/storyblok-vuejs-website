@@ -10,16 +10,16 @@
       <nav class="header__col u__hide--m" role="navigation" data-vue="Navigation">
         <ul class="nav">
           <li>
-            <a class="nav__item" href="#/">Home</a>
+            <router-link class="nav__item" to="/">Home</router-link>
           </li>
           <li>
-            <a class="nav__item" href="#/page/about">About</a>
+            <router-link class="nav__item" to="/page/about">About</router-link>
           </li>
           <li>
-            <a class="nav__item" href="#/page/products">Products</a>
+            <router-link class="nav__item" to="/page/products">Products</router-link>
           </li>
           <li>
-            <a class="nav__item" href="#/page/blog">Blog</a>
+            <router-link class="nav__item" to="/page/blog">Blog</router-link>
           </li>
         </ul>
       </nav>
