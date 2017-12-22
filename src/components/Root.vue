@@ -1,6 +1,7 @@
 <template>
   <div>
     <component :blok="story.content" :is="story.content.component"></component>
+    {{rendered}}
   </div>
 </template>
 
@@ -14,12 +15,14 @@ export default {
         content: {
           body: []
         }
-      }
+      },
+      rendered: 'test'
     }
   },
   created () {
     if (window.location.hash.indexOf('#!') > -1) {
-      this.$router.push(window.location.hash.split('#!')[1])
+      this.rendered = window.location.hash
+      return
     }
 
     this.$storyblok.on('change', () => { this.loadStory('draft') })
