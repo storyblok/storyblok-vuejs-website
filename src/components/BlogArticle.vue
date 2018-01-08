@@ -1,7 +1,7 @@
 <template>
   <div class="page u__container blog-article" v-editable="blok">
     <div class="blog-article__back">
-      <a href="#/page/blog">Back to overview</a>
+      <a href="/page/blog">Back to overview</a>
     </div>
     <h1>{{ blok.title }}</h1>
     <p>{{ blok.intro }}</p>
