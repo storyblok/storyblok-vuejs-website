@@ -2,7 +2,7 @@
   <div>
     <header class="header">
       <div class="u__show--m">
-        <a href="#" @click.prevet="showOffcanvas = !showOffcanvas" class="header__icon menu">
+        <a href="#" @click.prevent="showOffcanvas = !showOffcanvas" class="header__icon menu">
           MENU
           <svg class="icon"><use xlink:href="#icon-navi"></use></svg>
         </a>
@@ -78,9 +78,9 @@
               <div>
                 <h3 id="get-to-know-us">Get to Know Us</h3>
                 <ul>
-                  <li><a href="#/page/about">About</a></li>
-                  <li><a href="#/page/products">Products</a></li>
-                  <li><a href="#/page/blog">Blog</a></li>
+                  <li><a href="/page/about">About</a></li>
+                  <li><a href="/page/products">Products</a></li>
+                  <li><a href="/page/blog">Blog</a></li>
                 </ul>
               </div>
             </div>
@@ -170,7 +170,7 @@
             </div>
             <div class="uk-width-1-4@m">
               <div>
-                <h3 id="kriss">Imprint</h3>
+                <h3>Imprint</h3>
                 <p>Coming</p>
               </div>
             </div>
@@ -184,16 +184,16 @@
         <ul class="u__unstyled-li">
           <li>
             <li>
-              <a class="sidebar__item" href="#/">Home</a>
+              <a class="sidebar__item" href="/">Home</a>
             </li>
             <li>
-              <a class="sidebar__item" href="#/page/about">About</a>
+              <a class="sidebar__item" href="/page/about">About</a>
             </li>
             <li>
-              <a class="sidebar__item" href="#/page/products">Products</a>
+              <a class="sidebar__item" href="/page/products">Products</a>
             </li>
             <li>
-              <a class="sidebar__item" href="#/page/blog">Blog</a>
+              <a class="sidebar__item" href="/page/blog">Blog</a>
             </li>
           </li>
         </ul>
