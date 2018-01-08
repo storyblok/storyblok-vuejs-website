@@ -2,7 +2,7 @@
   <div>
     <header class="header">
       <div class="u__show--m">
-        <a href="#" @click.prevet="showOffcanvas = !showOffcanvas" class="header__icon menu">
+        <a href="#" @click.prevent="showOffcanvas = !showOffcanvas" class="header__icon menu">
           MENU
           <svg class="icon"><use xlink:href="#icon-navi"></use></svg>
         </a>
