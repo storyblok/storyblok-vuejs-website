@@ -14,6 +14,7 @@ import BlogOverview from '@/components/BlogOverview'
 import ProductList from '@/components/ProductList'
 import ImageBlock from '@/components/ImageBlock'
 import TextBlock from '@/components/TextBlock'
+import Quote from '@/components/Quote'
 
 Vue.component('offcanvas', Offcanvas)
 Vue.component('page', Page)
@@ -25,6 +26,7 @@ Vue.component('blog-overview', BlogOverview)
 Vue.component('product-list', ProductList)
 Vue.component('image-block', ImageBlock)
 Vue.component('text-block', TextBlock)
+Vue.component('quote', Quote)
 
 Vue.filter('url', (value) => {
   if (!value) {
