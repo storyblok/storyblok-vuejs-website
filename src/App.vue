@@ -78,9 +78,9 @@
               <div>
                 <h3 id="get-to-know-us">Get to Know Us</h3>
                 <ul>
-                  <li><a href="#/page/about">About</a></li>
-                  <li><a href="#/page/products">Products</a></li>
-                  <li><a href="#/page/blog">Blog</a></li>
+                  <li><a href="/page/about">About</a></li>
+                  <li><a href="/page/products">Products</a></li>
+                  <li><a href="/page/blog">Blog</a></li>
                 </ul>
               </div>
             </div>
@@ -184,16 +184,16 @@
         <ul class="u__unstyled-li">
           <li>
             <li>
-              <a class="sidebar__item" href="#/">Home</a>
+              <a class="sidebar__item" href="/">Home</a>
             </li>
             <li>
-              <a class="sidebar__item" href="#/page/about">About</a>
+              <a class="sidebar__item" href="/page/about">About</a>
             </li>
             <li>
-              <a class="sidebar__item" href="#/page/products">Products</a>
+              <a class="sidebar__item" href="/page/products">Products</a>
             </li>
             <li>
-              <a class="sidebar__item" href="#/page/blog">Blog</a>
+              <a class="sidebar__item" href="/page/blog">Blog</a>
             </li>
           </li>
         </ul>
