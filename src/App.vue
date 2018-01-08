@@ -170,7 +170,7 @@
             </div>
             <div class="uk-width-1-4@m">
               <div>
-                <h3 id="kriss">Imprint</h3>
+                <h3>Imprint</h3>
                 <p>Coming</p>
               </div>
             </div>
