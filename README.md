@@ -1,3 +1,7 @@
+> [!WARNING]
+> This repository is no longer maintained.
+> For a current Vue + Storyblok starter, use [blueprint-core-vue](https://github.com/storyblok/blueprint-core-vue).
+
 # commerce
 
 > A Vue.js project
